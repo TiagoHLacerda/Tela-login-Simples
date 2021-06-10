@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,17 +8,53 @@
     <title>Login-Helper</title>
     <link rel="stylesheet" href="./css/styles.css">
     <script scr="./js/index.js" defer></script>
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/84fbd77a6e.js" crossorigin="anonymous" defer></script>
 </head>
 
 <body>
     <header>
+<h1>Login-Helper</h1>
+       
     </header>
     <main>
+        <form>
+            <section class ="input-container">
+                 <input type="email" placeholder="example@gmail.com">
+                 <div class="password-container">
+                     <input type="password" id="field-password" class="field-password" placeholder="********">
+                     <i class="fas fa-eye"id ="eye"></i>
+                     <i class="fas fa-eye-slash"id="eye-slash"></i>
+                 </div>
+            </section>
+<section class="password-infos">
+<div>
+    <input type="checkbox">
+    <spam>Lembrar senha? </spam>
+</div>
+<a href="#">Esqueceu sua senha? </a>
+</section>
 
+<button id="btn-login">Login </button>
+
+<section class="links-container">
+    <spam>Ou entre com:</spam>
+
+    <aside>
+        <a href=""><i class="fab fa-google-plus-square google"></i></a>
+        <a href=""><i class="fab fa-linkedin linkedin"></i></a>
+        <a href=""><i class="fab fa-facebook-square facebook"></i></a>
+        <a href=""><i class="fab fa-github-square github"></i></a>
+
+    </aside>
+</section>
+
+<footer>
+<hr>
+<spam>Ainda não tem uma conta? <a href="g">Cadastre-se</a></spam>
+</footer>
+</form>
     </main>
 </body>
 
